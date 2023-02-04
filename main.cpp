@@ -124,7 +124,7 @@ int main(void)
     while (true)
     {
         // Prompt user for char
-        cout<<"Enter a character: ";
+        cout<<"Enter a character, or an empty line to quit: ";
         // Read line of input from terminal
         getline(cin, str);
         
